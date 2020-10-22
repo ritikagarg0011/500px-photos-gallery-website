@@ -1,0 +1,605 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------ Top NavBar starts here ---------------------- */
+.flex-container {
+  display: flex;
+  align-items: center;
+  padding-left: 62px;
+  padding-right: 32px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0px 6px 6px -4px rgba(207, 207, 207, 0.5);
+}
+
+.logo {
+  padding-right: 18px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: blue !important;
+}
+
+/* .logo img:hover{
+    color: #1890ff;
+    transition: color 0.2s ease;
+} */
+
+.discover a,
+.licensing a {
+  color: black;
+  padding-left: 22px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.discover a:hover,
+.licensing a:hover {
+  color: #1890ff;
+  transition: color 0.2s ease;
+}
+
+.list span {
+  color: black;
+  padding-left: 22px;
+  cursor: pointer;
+}
+
+.list span:hover {
+  color: #1890ff;
+  transition: color 0.2s ease;
+}
+
+.btn-search {
+  border: 1px solid rgb(247, 248, 250);
+  border-radius: 25px;
+  background-color: rgb(247, 248, 250);
+  margin-left: 150px;
+  margin-right: 10px;
+}
+
+.sign_up {
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: white;
+  padding: 0 15px 3px 15px;
+}
+
+.fa-chevron-down,
+.fa-search {
+  color: grey;
+}
+
+.fa-search {
+  padding-left: 10px;
+}
+
+.search {
+  border-style: none;
+  background-color: rgb(247, 248, 250);
+  text-indent: 18px;
+  outline: none;
+  padding: 7px;
+}
+
+.log_in,
+.sign_up {
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.log_in {
+  padding: 0 15px;
+}
+
+.log_in:hover,
+.sign_up:hover {
+  color: #1890ff;
+}
+
+/*------------------------ Top NavBar ends here ----------------------- */
+
+
+/*----- Discover Sub list starts here -------*/
+/* .discover_sublist{
+    border: 1px solid white;
+    background-color: white;
+
+} */
+/*----- Discover Sub list ends here -------*/
+
+
+/*--------------------------------- Bg Image starts here --------------------------*/
+.background {
+  /* position: relative; */
+}
+
+.bg_img {
+  width: 100%;
+  /* height: 650px; */
+}
+
+.main_heading {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.text_on_img {
+  position: absolute;
+  top: 220px;
+  color: white;
+  width: 50%;
+  padding-left: 62px;
+}
+
+.signup_btn {
+  border: 1px solid white;
+  border-radius: 100px;
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
+  width: 30%;
+}
+
+.signup_btn:hover {
+  background-color: rgba(222, 224, 228, 0.877);
+  transition: background-color 0.2s ease;
+}
+
+.signup {
+  color: rgba(0, 0, 0, 0.884);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.signup:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.signup_btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+/*---------------------------------- Bg Image ends here --------------------------*/
+
+
+/*-------------------------- Main Section 1 starts here ------------------------- */
+.heading {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  margin: 42px;
+  font-size: 40px;
+}
+
+.section1 {
+  display: flex;
+  padding-left: 62px;
+  padding-right: 32px;
+  padding-bottom: 50px;
+}
+
+.fa-picture-o,
+.fa-graduation-cap,
+.fa-bar-chart {
+  font-size: 55px;
+}
+
+.section1 h4 {
+  font-weight: bold;
+  padding: 15px 0px;
+}
+
+.first {
+  width: 65%;
+}
+
+.second {
+  width: 65%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.third {
+  width: 60%;
+}
+
+/*------------------------- Main Section 1 ends here -------------------------- */
+
+
+/*------------------------- Main Section 2 starts here ------------------------ */
+
+.section2 {
+  padding-bottom: 20px;
+}
+
+.text {
+  width: 40%;
+  display: inline-block;
+  margin-left: 135px;
+  margin-right: 135px;
+  vertical-align: middle;
+}
+
+.text img {
+  cursor: pointer;
+}
+
+.apple{
+  margin-right: 12px;
+}
+
+.heading2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.devices {
+  height: 340px;
+  width: 340px;
+  display: inline-block;
+}
+
+/*------------------------ Main Section 2 ends here ----------------------- */
+
+
+/*--------------------------- Main Section 3 starts here ------------------------- */
+
+/*--------- Main Section 3a starts here ------------ */
+.section3a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner3a {
+  width: 100%;
+  height: 450px;
+  padding-bottom: 30px;
+}
+
+.circle3a {
+  border-radius: 100px;
+  background-color: #0cefe8;
+  height: 130px;
+  width: 130px;
+}
+
+.heading3a {
+  position: absolute;
+  color: white;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-top: 90px;
+}
+
+.banner_icon3a,
+.circle3a {
+  position: absolute;
+  margin-bottom: 130px;
+}
+
+.banner_icon3a{
+  height: 80px;
+  width: 80px;
+}
+
+.view_editor_choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.view_editor_btn {
+  border: 1px solid rgb(34, 34, 34);
+  background-color: rgb(34, 34, 34);
+  border-style: none;
+  border-radius: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  cursor: pointer;
+  padding: 10px 22px;
+}
+
+.view_editor_btn:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*--------- Main Section 3b starts here ------------ */
+.section3b {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.banner3b {
+  width: 100%;
+  height: 450px;
+  padding-bottom: 30px;
+}
+
+.circle3b {
+  border-radius: 100px;
+  background-color: #e44059;
+  height: 130px;
+  width: 130px;
+}
+
+.heading3b {
+  position: absolute;
+  color: white;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-top: 90px;
+}
+
+.banner_icon3b{
+  height: 80px;
+  width: 80px;
+}
+
+.banner_icon3b,
+.circle3b {
+  position: absolute;
+  margin-bottom: 130px;
+}
+
+/*--------- Main Section 3c starts here ------------ */
+.section3c{
+  padding-left: 62px;
+}
+
+.text3c{
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+  margin-right: 36px;
+}
+
+.banner3c{
+  padding-bottom: 20px;
+}
+
+.heading3c{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.para3c{
+    padding-bottom: 26px;
+}
+
+.view_quests_btn{
+  border: 1px solid rgb(34, 34, 34);
+  background-color: rgb(34, 34, 34);
+  border-style: none;
+  border-radius: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  cursor: pointer;
+  padding: 12px 26px;
+}
+
+.view_quests_btn:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.quest{
+  width: 47%;
+  height: 520px;
+  display: inline-block;
+}
+
+/*--------- Main Section 3d starts here ------------ */
+.section3d {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 27px;
+  margin-top: 60px;
+}
+
+.banner3d {
+  width: 100%;
+  height: 450px;
+  padding-bottom: 30px;
+}
+
+.circle3d {
+  border-radius: 100px;
+  background-color: rgb(254, 223, 70);
+  height: 130px;
+  width: 130px;
+}
+
+.heading3d {
+  position: absolute;
+  color: white;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-top: 90px;
+}
+
+.banner_icon3d{
+  height: 80px;
+  width: 80px;
+}
+
+.banner_icon3d,
+.circle3d {
+  position: absolute;
+  margin-bottom: 130px;
+}
+
+/*--------- Main Section 3e starts here ------------ */
+.section3e{
+  padding-left: 62px;
+  margin-bottom: 68px;
+}
+
+.licensing_img{
+  width: 47%;
+  height: 480px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.text3e{
+  display: inline-block;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.banner3e{
+  padding-bottom: 20px;
+}
+
+.heading3e{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.para3e{
+    padding-bottom: 26px;
+}
+
+.tell_me_more__btn{
+  border: 1px solid rgb(34, 34, 34);
+  background-color: rgb(34, 34, 34);
+  border-style: none;
+  border-radius: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  cursor: pointer;
+  padding: 12px 26px;
+}
+
+.tell_me_more__btn:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*--------- Main Section 3f starts here ------------ */
+.section3f{
+  background-color: #45457c;
+  text-align: center;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.heading3f{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.para3f{
+  color: white;
+  padding-bottom: 26px;
+}
+
+.signup_btn_3f {
+  border: 1px solid white;
+  border-radius: 100px;
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
+  width: 30%;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 16px 70px;
+}
+
+.signup_btn_3f:hover {
+  color: #1890ff;
+}
+
+/*------------------------------ Main Section 3 ends here -------------------------- */
+
+
+/*----------------------------- Footer starts here ---------------------------- */
+.footer{
+  color: rgb(98, 103, 107);
+  padding-left: 62px;
+}
+
+.company_list, .community_list, .licensing_list, .social_list, .download_app{
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 60px;
+}
+
+.company_list_a, .community_list_a, .licensing_list_a, .social_list_a{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer h4{
+  padding-bottom: 13px;
+}
+
+.footer a{
+  color: rgb(98, 103, 107);
+  padding-bottom: 18px;
+}
+
+.social_media{
+  padding-bottom: 18px;
+}
+
+.footer a:hover{
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.hr{
+  width: 90%;
+}
+
+.footer_down{
+  padding-left: 62px;
+  float: left;
+}
+
+.copyright{
+  color: rgb(98, 103, 107);
+  font-weight: bold;
+}
+
+.footer_links{
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.footer_links a{
+  color: rgb(98, 103, 107);
+  padding-right: 18px;
+}
+
+.footer_links a:hover{
+  color: #1890ff;
+  text-decoration: none;
+}
+/*------------------------------ Footer ends here ---------------------------- */
